@@ -1,0 +1,59 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #272343;
+    /* Todos los elementos hijos flexibles */
+    display: flex; 
+    /* Es para posicionar al centro horizontalmente*/
+    justify-content: center;
+    /* Se alinean los items en el centro verticalmente*/
+    align-items: center;
+    /* El body toma el size del 100% del area de visualizacion(viewport height) */
+    height: 100vh;
+}
+
+/* Div que contiene toda la aplicacion */
+#quiz {
+    background-color: #ffff;
+    width: 30rem;
+    padding: 4rem;
+}
+
+h1{
+    color: #57636e;
+    font-size: 3rem;
+    text-align: center;
+    /* arriba y abajo 2px, 0px a los lados  */
+    padding: 2px 0;
+}
+
+#question{
+    font-size: 1.7rem;
+    color: #5a6772;
+    text-align: center;
+}
+
+.button{
+    background-color: #34a3a3;
+    color: #ffff;
+    width: 250px;
+    font-size: 20px;
+    border-radius: .3rem;
+    padding: 10px 20px;
+    /* arriba, derecha, abajo, izquierda */
+    margin: 10px 100px 10px;
+    outline: 0;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #5a6772;
+}
+
+#progress{
+    font-size: 20px;
+    text-align: center;
+}
